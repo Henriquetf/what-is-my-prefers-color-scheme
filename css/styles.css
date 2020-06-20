@@ -13,8 +13,8 @@ body {
   font-family: "Ubuntu", sans-serif;
   font-size: 62.5%;
 
-  color: #be5046;
-  background-color: #282c34;
+  color: #444444;
+  background-color: #efefef;
 }
 
 a {
@@ -85,11 +85,6 @@ a {
 }
 
 @media (prefers-color-scheme: light) {
-  body {
-    color: #444444;
-    background-color: #efefef;
-  }
-
   .color-scheme--light {
     display: initial;
   }
@@ -100,6 +95,13 @@ a {
 
   .color-scheme--not-supported {
     display: none;
+  }
+}
+
+@media (prefers-color-scheme: dark), (prefers-color-scheme: no-preference) {
+  body {
+    color: #be5046;
+    background-color: #282c34;
   }
 }
 
