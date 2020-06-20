@@ -15,7 +15,7 @@ JavaScript is not needed for it to work.
 - **light:** Indicates that user has notified the system that they prefer an interface that has a light theme.
 - **dark:** Indicates that user has notified the system that they prefer an interface that has a dark theme.
 
-### Preview
+## Preview
 
 <table>
   <tr>
@@ -28,6 +28,13 @@ JavaScript is not needed for it to work.
   </tr>
 <table>
 
-### License
+## Color themes
+
+The colors of this project were taken from the following themes:
+
+- `light`: [Hemisu Light](https://github.com/Mayccoll/Gogh/blob/master/themes/hemisu-light.sh)
+- `dark`: [One Dark Pro](https://github.com/Binaryify/OneDark-Pro)
+
+## License
 
 [MIT](./LICENSE).
