@@ -15,13 +15,19 @@ JavaScript is not needed for it to work.
 - **light:** Indicates that user has notified the system that they prefer an interface that has a light theme.
 - **dark:** Indicates that user has notified the system that they prefer an interface that has a dark theme.
 
-### Preview
+## Preview
 
-![Dark](./.github/preview/prefers-color-scheme-dark.png)
-![Light](./.github/preview/prefers-color-scheme-light.png)
-![No preference](./.github/preview/prefers-color-scheme-no-preference.png)
-![Not supported](./.github/preview/prefers-color-scheme-not-supported.png)
+<table>
+  <tr>
+    <td>
+      <img alt="Dark" src="./.github/preview/prefers-color-scheme-dark.png" width="300px">
+    </td>
+    <td>
+      <img alt="Light" src="./.github/preview/prefers-color-scheme-light.png" width="300px">
+    </td>
+  </tr>
+<table>
 
-### License
+## License
 
 [MIT](./LICENSE).
