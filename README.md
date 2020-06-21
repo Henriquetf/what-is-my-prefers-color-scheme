@@ -20,10 +20,16 @@ JavaScript is not needed for it to work.
 <table>
   <tr>
     <td>
-      <img alt="Light" src="./.github/preview/prefers-color-scheme-light.png" width="330px">
+      <img alt="Light" src="./.github/preview/prefers-color-scheme-light.png" width="300px">
     </td>
     <td>
-      <img alt="Dark" src="./.github/preview/prefers-color-scheme-dark.png" width="330px">
+      <img alt="Dark" src="./.github/preview/prefers-color-scheme-dark.png" width="300px">
+    </td>
+    <td>
+      <img alt="Not supported" src="./.github/preview/prefers-color-scheme-not-supported.png" width="300px">
+    </td>
+    <td>
+      <img alt="No preference" src="./.github/preview/prefers-color-scheme-no-preference.png" width="300px">
     </td>
   </tr>
 <table>

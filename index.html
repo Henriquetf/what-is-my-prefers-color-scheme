@@ -23,14 +23,20 @@
         </span>
       </section>
 
-      <section class="possible-values__section">
-        <h3 class="possible-values__title">
+      <section class="possible-color-schemes__section">
+        <h3 class="possible-color-schemes__title">
           Possible values of prefers-color-scheme:
         </h3>
-        <ul class="possible-values">
-          <li class="color-scheme-value color-scheme-value--dark">dark</li>
-          <li class="color-scheme-value color-scheme-value--light">light</li>
-          <li class="color-scheme-value color-scheme-value--no-preference">
+        <ul class="possible-color-schemes__list">
+          <li class="possible-color-scheme possible-color-scheme--dark">
+            dark
+          </li>
+          <li class="possible-color-scheme possible-color-scheme--light">
+            light
+          </li>
+          <li
+            class="possible-color-scheme possible-color-scheme--no-preference"
+          >
             no-preference
           </li>
         </ul>
@@ -38,10 +44,17 @@
 
       <footer class="footer">
         <a
-          class="footer-link"
+          class="footer__link"
           href="https://developer.mozilla.org/docs/Web/CSS/@media/prefers-color-scheme"
         >
           MDN
+        </a>
+
+        <a
+          class="footer__link"
+          href="https://github.com/Henriquetf/what-is-my-prefers-color-scheme"
+        >
+          GitHub
         </a>
       </footer>
     </div>

@@ -19,6 +19,12 @@ body {
 
 a {
   color: inherit;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus,
+a:active {
   text-decoration: underline;
 }
 
@@ -28,7 +34,7 @@ a {
   justify-content: center;
   min-height: 100%;
   flex-direction: column;
-  padding: 40px 20px;
+  padding: 40px 25px;
 }
 
 .color-scheme__section {
@@ -48,40 +54,44 @@ a {
   display: initial;
 }
 
-.possible-values__section {
+.possible-color-schemes__section {
   margin-bottom: 40px;
 }
 
-.possible-values__title {
+.possible-color-schemes__title {
   font-size: 1.1rem;
   margin-bottom: 20px;
   font-weight: 500;
 }
 
-.possible-values {
+.possible-color-schemes__list {
   display: flex;
   list-style: none;
 }
 
-.color-scheme-value {
+.possible-color-scheme {
   font-size: 1.6rem;
   margin: 10px 0;
   font-weight: 400;
 }
 
-.color-scheme-value + .color-scheme-value {
+.possible-color-scheme + .possible-color-scheme {
   margin-left: 40px;
 }
 
 .footer {
   display: flex;
   justify-content: center;
-  flex-direction: column;
+  max-width: 440px;
+  width: 100%;
 }
 
-.footer-link {
-  padding: 20px 80px;
-  font-size: 2.5rem;
+.footer__link {
+  flex: 1;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 500;
 }
 
 @media (prefers-color-scheme: light) {
@@ -89,7 +99,7 @@ a {
     display: initial;
   }
 
-  .color-scheme-value--light {
+  .possible-color-scheme--light {
     font-weight: bold;
   }
 
@@ -98,19 +108,17 @@ a {
   }
 }
 
-@media (prefers-color-scheme: dark), (prefers-color-scheme: no-preference) {
+@media (prefers-color-scheme: dark) {
   body {
     color: #be5046;
     background-color: #282c34;
   }
-}
 
-@media (prefers-color-scheme: dark) {
   .color-scheme--dark {
     display: initial;
   }
 
-  .color-scheme-value--dark {
+  .possible-color-scheme--dark {
     font-weight: bold;
   }
 
@@ -120,15 +128,30 @@ a {
 }
 
 @media (prefers-color-scheme: no-preference) {
+  body {
+    color: #be5046;
+    background-color: #282c34;
+  }
+
   .color-scheme--no-preference {
     display: initial;
   }
 
-  .color-scheme-value--no-preference {
+  .possible-color-scheme--no-preference {
     font-weight: bold;
   }
 
   .color-scheme--not-supported {
     display: none;
+  }
+}
+
+@media (max-width: 470px) {
+  .color-scheme {
+    font-size: 3rem;
+  }
+
+  .possible-color-scheme + .possible-color-scheme {
+    margin-left: 20px;
   }
 }
